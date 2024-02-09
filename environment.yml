@@ -1,4 +1,4 @@
-name: deaf_reload_v0
+name: NebulaPredictor
 dependencies:
   #- python=3.12.0  # Specify the Python version you want to use
   # List your required packages here
