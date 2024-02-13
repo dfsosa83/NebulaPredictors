@@ -20,21 +20,21 @@ NebulaPredictors is a project focused on predicting pips in the euro/dolar (EUR/
 - Explore the notebooks in the `notebooks` directory for data analysis, model training, and evaluation.
 - Use the trained models in the `models` directory to make predictions for the EUR/USD pair within your trading platform.
 
-# FLASK
+## FLASK
 Inside conda environment:
-flask --app C:/Users/david/OneDrive/Documents/NebulaPredictors/notebooks/deaf_reload_flask_01272024 run
-flask --app C:/Users/david/OneDrive/Documents/NebulaPredictors/notebooks/deaf_reload_flask_signed run
+- flask --app C:/Users/david/OneDrive/Documents/NebulaPredictors/notebooks/deaf_reload_flask_01272024 run
+- flask --app C:/Users/david/OneDrive/Documents/NebulaPredictors/notebooks/deaf_reload_flask_signed run
 
 
-# Trials Descriptions
+## Trials Descriptions
 
-## trial 2: 
+### trial 2: 
 - The notebook for this trial is: SuperLearnerModel_trial2.ipynb located in notebook folder with name trial_2
 - 4 models with diferent time periods (see images folder:(trial_2image1.png))
 - The metamodel is a Lightgbm regressor
 - databases are located in data folder too
 
-# Simulations Outcomes
+## Simulations Outcomes
 - Folder simulations has the main outcomes for diferent trials combinations, and important notes!
 
 ## Contribution
