@@ -15,4 +15,6 @@ dependencies:
   - pip
   - pip:
     - ta
+    - catboost
+    - xgboost
   
