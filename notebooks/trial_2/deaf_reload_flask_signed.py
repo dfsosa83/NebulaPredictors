@@ -28,11 +28,11 @@ app = Flask(__name__) #Mono
 working_dir = "C:/Users/david/OneDrive/Documents/NebulaPredictors"
 
 ### Load the saved models from the .pkl files
-model1 = pickle.load(open(working_dir + "/trained_models_trial2/xg_model_signed_target_Q1.sav","rb"))
-model2 = pickle.load(open(working_dir + "/trained_models_trial2/cb_model_signed_target_Q2.sav", 'rb'))
-model3 = pickle.load(open(working_dir + "/trained_models_trial2/lg_model_signed_target_Q3.sav","rb"))
-model4 = pickle.load(open(working_dir + "/trained_models_trial2/hist_model_signed_target_Q4.sav","rb"))
-meta_model = pickle.load(open(working_dir + "/trained_models_trial2/meta_hist_4_models_signed_target_Q1_to_Q4.sav","rb"))
+model1 = pickle.load(open(working_dir + "/models/trained_models_trial_2/xg_model_signed_target_Q1.sav","rb"))
+model2 = pickle.load(open(working_dir + "/models/trained_models_trial_2/cb_model_signed_target_Q2.sav", 'rb'))
+model3 = pickle.load(open(working_dir + "/models/trained_models_trial_2/lg_model_signed_target_Q3.sav","rb"))
+model4 = pickle.load(open(working_dir + "/models/trained_models_trial_2/hist_model_signed_target_Q4.sav","rb"))
+meta_model = pickle.load(open(working_dir + "/models/trained_models_trial_2/meta_hist_4_models_signed_target_Q1_to_Q4.sav","rb"))
 print("Models loaded successfully!")
 
  ###### Begin Mono
