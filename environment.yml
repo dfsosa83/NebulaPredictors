@@ -9,6 +9,7 @@ dependencies:
   - flask=2.2.5
   - requests=2.26.0
   - matplotlib=3.4.3
+  - MLPRegressor
   - seaborn=0.11.2
   - lightgbm=4.1.0
   #- datetime=4.3
